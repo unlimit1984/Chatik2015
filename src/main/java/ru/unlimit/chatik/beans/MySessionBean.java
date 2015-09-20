@@ -16,5 +16,8 @@ public class MySessionBean {
     public MySessionBean() {
         // TODO Auto-generated constructor stub
     }
+    public String getStr(){
+    	return "Default MySessionBean value";
+    }
 
 }
