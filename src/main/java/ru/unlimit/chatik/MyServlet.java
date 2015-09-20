@@ -29,6 +29,7 @@ public class MyServlet extends HttpServlet {
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		response.setCharacterEncoding("UTF-8");
+		response.setContentType("text/html");
 		PrintWriter out = response.getWriter();
 		out.println("<html><head><title>EJB value</title></head><body>"+bean.getStr()+"</body></html>");
 	}
