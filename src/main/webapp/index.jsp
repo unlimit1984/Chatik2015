@@ -7,6 +7,19 @@
 <title>Chatik</title>
 </head>
 <body>
-	Добро пожаловать в Чатик (Chatik)
+	<h1>Добро пожаловать в Чатик (Chatik)</h1>
+	
+	<div id="chatbox">
+	
+	<div>
+	
+	<br>
+
+	<form action="ChatServlet" method="GET">
+		Text: <input type="text" name="message">
+		<input  type="hidden" name="command" value="add">
+		<input type="submit" value="Отправить" />
+	</form>
+	
 </body>
 </html>
