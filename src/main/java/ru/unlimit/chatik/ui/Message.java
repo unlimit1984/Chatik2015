@@ -2,8 +2,11 @@ package ru.unlimit.chatik.ui;
 
 public class Message {
 
-	private long timestamp;
-	private String text;
+	private final long timestamp;
+	private final String text;
+	
+	public long getTimestamp() {return timestamp;}
+	public String getText() {return text;}
 	
 	public Message(long timestamp, String text) {
 		this.timestamp = timestamp;
