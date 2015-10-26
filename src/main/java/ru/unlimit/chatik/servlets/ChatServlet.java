@@ -19,7 +19,7 @@ import ru.unlimit.chatik.util.ChatUtil;
 
 @WebServlet("/ChatServlet")
 public class ChatServlet extends HttpServlet {
-	private static final long serialVersionUID = 1L;
+	private static final long serialVersionUID = 1L; 
            
 	final static List<Message> messages = new ArrayList<>();
 	final static int MAX_MESSAGE_COUNT = 50;
