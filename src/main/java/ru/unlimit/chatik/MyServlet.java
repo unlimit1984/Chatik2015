@@ -22,7 +22,6 @@ public class MyServlet extends HttpServlet {
 	@EJB
 	MySessionBean bean;
 	
-	
     public MyServlet() {
         super();
     }
